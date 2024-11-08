@@ -1,0 +1,97 @@
+.container {
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.form {
+background-color: #f5f5f5;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form h2 {
+text-align: center;
+color: #333;
+margin-bottom: 20px;
+}
+
+.form-group {
+margin-bottom: 15px;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+color: #666;
+}
+
+input {
+width: 100%;
+padding: 8px;
+border: 1px solid #ddd;
+border-radius: 4px;
+font-size: 16px;
+}
+
+.error-input {
+border-color: #ff4444;
+}
+
+/* Estilos para el contenedor de errores */
+.error-container {
+margin-top: 20px;
+padding: 15px;
+background-color: #fff3f3;
+border: 1px solid #ff4444;
+border-radius: 4px;
+}
+
+.error-message {
+color: #ff4444;
+font-size: 14px;
+margin: 5px 0;
+text-align: center;
+}
+
+button {
+width: 100%;
+padding: 10px;
+background-color: #4CAF50;
+color: white;
+border: none;
+border-radius: 4px;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+button:hover {
+background-color: #45a049;
+}
+
+.card {
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+color: #333;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.card-content {
+color: #666;
+}
+
+.card-content p {
+margin: 10px 0;
+}
+
+.card-content strong {
+color: #333;
+}
